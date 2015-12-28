@@ -19,6 +19,16 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+run_analysis.R will create the tidy dataset by going through the following steps:
+- Load up the features and normalize the values
+- get indices with the mean and std deviation values
+- load the training set (this comprises the subject, label and raw value data sets)
+- load the test set (this comprises the subject, label and raw value data sets
+- merge the test and training data sets
+- add descriptive activity labels
+- create a tidy summary data table that calculates the average for each variable over each activity and subject and output it as tidy.txt
+
+The resullting dataset has the following activities and variables:
 Below are the different types of activities
 - 1 WALKING
 - 2 WALKING_UPSTAIRS
