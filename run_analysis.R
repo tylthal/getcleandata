@@ -87,4 +87,4 @@ for(i in 1:subjectLen) {
 }
 head(result)
 
-write.table(result, "tidy.results", row.names = FALSE)
+write.table(result, "tidy.txt", row.names = FALSE)
